@@ -1,0 +1,36 @@
+.container{
+    background-color: rgb(247, 246, 243);
+    text-align: center;
+    padding: 1rem;
+
+}
+.center-container{
+    margin-top: 3rem;
+    width:40rem;
+    height: 40rem;
+    margin: auto;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 1rem 2rem 3rem rgba(205, 190, 162, 0.839);
+    text-align: center;
+    vertical-align: text-bottom;
+}
+input{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background-color: rgb(232, 244, 255);
+}
+.btn{
+    width: 4rem;
+    height: 3rem;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 2px;
+    background-color: rgb(232, 244, 255);
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+}
+}

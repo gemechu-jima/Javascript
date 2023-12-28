@@ -1,0 +1,55 @@
+
+
+#game-section{
+    width: 50%;
+    max-width: 40rem;
+    margin: auto;
+    text-align:center;
+}
+#active-game{
+    display: none;
+}
+#game-border{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,6rem);
+    grid-template-rows: repeat(3,6rem);
+    justify-content: center;
+    gap:0.5rem;
+
+}
+#game-border li{
+    background-color: rgb(127, 154, 165);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+#game-border li:hover{
+    background-color: rgb(5, 184, 255);
+    color: black;
+
+}
+#game-border li.disabled{
+    background-color: rgb(7, 177, 244);
+    color: black;
+}
+.game-over{
+    width:90%;
+    position: relative;
+    height: 10rem;
+    margin:auto;
+    padding: 2rem 1rem;
+    background-color: rgb(7, 177, 244);
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+
+}

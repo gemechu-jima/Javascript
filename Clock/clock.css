@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    background:url(image/istockphoto-490667270-1024x1024.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: azure;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.timer{
+    font-size: 3rem;
+}
+.btn{
+    font-size: 2rem;
+    cursor: pointer;
+}
+#play{
+    background-color: rgb(245, 245, 245);
+    color: rgb(1, 253, 1);
+   
+}
+#pause{
+    background-color: rgb(253, 253, 249);
+   color: rgb(228, 181, 13);
+}
+#reset{
+    background-color: rgb(255, 255, 255);
+    color: rgb(221, 85, 18);
+}

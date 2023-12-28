@@ -1,0 +1,64 @@
+html{
+    background-color: rgb(184, 202, 218);
+}
+#div{
+    background: black;
+    width: 80%;
+    height: 10rem;
+    margin: 1rem auto;
+    border-radius:2rem;
+    color: white;
+}
+div{
+    text-align: center;
+}
+.btn{
+    align-content: center;
+    background-color: white;
+    border: 1px solid rgb(0,0,0);
+    padding: 1rem;
+    width: 10rem;
+    cursor: pointer;
+}
+.btn-container{
+    margin-top: 2rem;
+}
+#span{
+    font-size: 2rem;
+    padding: 2rem;
+    color: rgb(72, 77, 77);
+}
+.decrease{
+    color: red;
+}
+.reset{
+    color: rgb(80, 89, 89);
+}
+.increase{
+    color:green;
+}
+section{
+    background-color: rgb(198, 209, 218);
+    width: 40rem;
+    height:40rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+article{
+    width: 30rem;
+    height: 30rem;
+    margin: 4rem auto;
+    background-color: white;
+    box-shadow: 1rem 2rem 3rem rgba(21,43,65,0.1);
+    border-radius: 1rem;
+}
+img{
+    width: 10rem;
+    border:3px solid rgb(40, 134, 227);
+    border-radius: 20rem;
+}
+p{
+    width: 25rem;
+    margin:auto;
+    font-size: 1rem;
+}

@@ -1,0 +1,78 @@
+body{
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(228, 228, 219);
+    height: 100%;
+}
+#header-section{
+    margin: 0;
+    padding: 2rem;
+    background-color: rgb(7, 198, 232);
+    text-align: center;
+}
+#header-section h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+#header-section p {
+    font-weight: bold;
+    font-size: rem;
+}
+main{
+    height: 40rem;
+}
+#player-section{
+    margin:0;
+    padding: 0;
+    width: 40%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    display: flex;
+}
+#player-section div{
+    margin:1rem;
+    padding:1.5rem 5rem;
+    background-color: rgb(117, 168, 183);
+    border-radius: 0.5rem;
+    text-align: center;
+
+}
+#player-section h3{
+    font-size: 1.5rem;
+    color: rgb(42, 42, 176);
+}
+#player-section h2{
+    font-size: 1rem;
+}
+#player-section p{
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+
+button{
+    background-color: rgba(110, 200, 194, 0.998);
+    color: rgb(0, 0, 0);
+    border:rgb(29, 118, 166);
+    border-radius: 5px;
+    margin:1rem;
+    padding:0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(34,67,87,0.2);
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(180, 232, 7);
+    color: rgb(0, 0, 0);
+    border:rgb(3, 29, 42);
+}
+#start-new-game{
+    left: 50%;
+    text-align: center;
+
+}
+.error{
+    color: rgb(226, 10, 10);
+
+}
+.error1{
+    background-color: rgb(238, 77, 77);
+}

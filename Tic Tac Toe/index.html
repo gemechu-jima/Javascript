@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toc Toe</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/configuration.css">
+    <link rel="stylesheet" href="style/overlay.css">
+    <script src="script/configuration.js" defer></script>
+    <script src="script/game.js" defer></script>
+    <script src="script/app.js" defer></script>
+</head>
+<body>
+    <div id="backdrop"></div>
+    <header id="header-section">
+        <h1>Tic Toc Toe Game Player</h1>
+        <p>This Game is playing with two person</p>
+    </header>
+    <main>
+        <aside class="modal" id="configuration">
+            <form id="form-section">
+                <div>
+                    <label for="playerName">Please enter Player Name</label>
+                    <input type="text" name="playerName" id="playerName" required>
+                </div>
+                <p class="valid-input"></p>
+                <div>
+                    <button type="reset" class="btn btn-alt" id="cancel-btn">Cancel</button>
+                    <button type="submiit" class="btn btn-alt" id="confirm-btn">Confirm</button>
+                </div>
+               
+            </form>
+        </aside>
+        <section id="player-section">
+            <div id="player-1-section">
+             <h2>Player-1</h2>
+             <h3 >playerName</h3>
+             <p>X</p>
+             <button class="btn btn-alt" id="edit-1-btn" data-playid="1">Edit</button>
+            </div>
+            <div id="player-2-section">
+             <h2>Player-2</h2>
+             <h3>playerName</h3>
+             <p>0</p>
+             <button class="btn btn-alt" id="edit-2-btn" data-playid="2">Edit</button>
+            </div>
+        </section>
+        
+        <section id="game-section">
+            <button class="btn btn-alt" id="start-new-game">Start New Game</button>
+            <!-- <button class="btn btn-alt" id="reset-game">Reset Game</button> -->
+            <div class="game-over">
+                <h1>You won :<span id="winner">=</span> </h1>
+                 
+            <p>Game is finished you can start new game</p>
+            </div>
+            <div id="active-game">
+            <p>It turn <span id="playTurn">PlayName</span></p>
+            <ol id="game-border">
+                <li data-col="1" data-row="1"></li>
+                <li data-col="2" data-row="1"></li>
+                <li data-col="3" data-row="1"></li>
+
+                <li data-col="1" data-row="2"></li>
+                <li data-col="2" data-row="2"></li>
+                <li data-col="3" data-row="2"></li>
+
+                <li data-col="1" data-row="3"></li>
+                <li data-col="2" data-row="3"></li>
+                <li data-col="3" data-row="3"></li>
+            </ol>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
